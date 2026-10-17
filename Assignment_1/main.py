@@ -39,6 +39,7 @@ def main() -> None:
     left, right = GetEndpoints()
 
     MaxValue(left, right, a, b, c, vertex_x, vertex_y)
+
     result = integrate(a, b, c, left, right)
     print(f"此区间内函数的积分是：: {result:.2f}")
 
