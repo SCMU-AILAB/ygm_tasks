@@ -1,7 +1,7 @@
 from math import sqrt
 
 
-def delta(a, b, c):
+def delta(a: float, b: float, c: float):
 
     delta: float = b * b - 4 * a * c
     print(f"判别式 Delta = {delta}")

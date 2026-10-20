@@ -1,4 +1,4 @@
-def MaxValue(left, right, a, b, c, vertex_x, vertex_y):
+def maxvalue(left, right, a, b, c, vertex_x, vertex_y):
     if left > right:
         left, right = right, left
 

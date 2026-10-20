@@ -1,4 +1,4 @@
-def OpeningDirection(a):
+def opening_direction(a: float):
     if a > 0:
         print("抛物线开口向上")
     else:
